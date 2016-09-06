@@ -72,7 +72,7 @@ public class Course {
 
     public void setMax_students(int max_students) {
         // implement here
-        this.max_students = (max_students >=10)?max_students:30;
+       this.max_students = (max_students >=10)?max_students:this.max_students;
     }
 
     public int getNo_students() {
